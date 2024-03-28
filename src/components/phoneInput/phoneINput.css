@@ -1,0 +1,14 @@
+.phoneInput .input {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.phoneInput p {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.phoneInput.error .input,
+.phoneInput.error p {
+    border-color: #ff5f59 !important; ;
+}

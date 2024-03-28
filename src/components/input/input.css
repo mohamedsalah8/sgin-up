@@ -1,0 +1,33 @@
+.input {
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.input label {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.input input ,
+.input select {
+    padding: 0px 10px 5px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
+
+.input.error {
+    border-color: #ff5f59;
+}
+
+.input.error label {
+    color: #ff5f59;
+}
+
+.input.select {
+    padding: 5px;
+}

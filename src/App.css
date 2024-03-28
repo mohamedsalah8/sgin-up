@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  width: 850px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.signup .actions {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  align-items: center;
+}
+
+.signup .actions div {
+  margin-left: auto;
+}
+
+@media (max-width:900px) {
+ .form {
+    width: 90vw;
+  }
+  .accountForm {
+    width: 100%;
+  }
+  .signup .actions button {
+    padding: 10px 35px;
+  }
+}
